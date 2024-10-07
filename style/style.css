@@ -41,7 +41,12 @@ body
 
 .nav_bar > li
 {
-	margin: 10px;
+	margin: 15px;
+}
+
+.list_nickname > li
+{
+	margin-top: 10px;
 }
 
 .image
@@ -57,11 +62,6 @@ body
 	display: block;
 }
 
-li
-{
-	padding: 3px;
-}
-
 .education
 {
 	margin-left: 40px;
@@ -70,4 +70,29 @@ li
 .school > li
 {
 	margin-top: 10px;
+}
+
+.list_achive
+{
+	margin-top: 15px;
+}
+
+.icpcid
+{
+	margin-top: 40px;
+}
+
+figure
+{
+	text-align: center;
+}
+
+.test
+{
+	margin-top: 15px;
+}
+
+.purpose > li
+{
+	margin-top: 20px;
 }
