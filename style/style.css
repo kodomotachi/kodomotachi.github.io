@@ -11,12 +11,6 @@ body
 
 .paragraph
 {
-	/* padding-left: 30%;
-	padding-right: 30%;  */
-	
-	/* display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; */
 	text-align: left;
 	padding: 2rem;
 }
@@ -60,6 +54,14 @@ body
 	max-width: 100%;
 	height: auto;
 	display: block;
+}
+
+.cat
+{
+	max-width: 30%;
+	height: auto;
+	display: block;
+	padding: 10px 30%;
 }
 
 .education
