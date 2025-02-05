@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>KodomoTachi</title>
+	<link rel="stylesheet" href="style/style.css">
+</head>
+<link rel="shortcut icon" type="image/x-icon" href="assets/image/IMG_2087.JPG" />
+<ul class="nav_bar">
+	<li><a class="active" href="#home">Home</a></li>
+	<li><a href="achievements.html">Achievements</a></li>
+	<li><a href="education.html">Education</a></li>
+	<li><a href="blog.html">Blogs</a></li>
+	<li><a href="cv.html">CV</a></li>
+</ul>
+<body>
+	<div>
+		<?php
+        // PHP script for visitor counter
+        $file = 'counter.txt';
+
+        if (!file_exists($file)) {
+            file_put_contents($file, 0);
+        }
+
+        $current_count = (int)file_get_contents($file);
+        $current_count++;
+
+        file_put_contents($file, $current_count);
+
+        echo "You are visitor number: " . $current_count;
+        ?>
+	</div>
+</body>
+</html>
